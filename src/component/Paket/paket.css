@@ -1,0 +1,112 @@
+/* paket.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.rowPaket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.content-paket {
+  width: 80%;
+  padding: 70px;
+  border-radius: 8px;
+}
+
+.paket {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.judul-paket {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.list-paket {
+  padding: 10px;
+}
+
+.wrap-list-paket {
+  display: flex;
+  flex-direction: column;
+}
+
+.paketw {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hotel, .transportasi {
+  width: 48%;
+  padding: 10px;
+}
+
+.hotel div, .transportasi div {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gambar-paket img {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.infoPaket {
+  padding-left: 20px;
+}
+
+.infoPaket p {
+  margin: 5px 0;
+}
+
+.detailPaket {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 130px;
+}
+
+.detailPaket:hover {
+  background-color: #0056b3;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 5px;
+}

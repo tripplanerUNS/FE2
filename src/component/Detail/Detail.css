@@ -1,0 +1,35 @@
+/* Detail.css */
+
+.aon-destination-detail-wrap {
+  padding-top: 110px; /* Sesuaikan dengan kebutuhan */
+  background-color: #fff; /* Sesuaikan dengan kebutuhan */
+}
+
+.container {
+  max-width: 1200px; /* Sesuaikan dengan kebutuhan */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Sesuaikan dengan kebutuhan */
+}
+
+.destination-card {
+  border: 1px solid #ccc; /* Sesuaikan dengan kebutuhan */
+  border-radius: 8px; /* Sesuaikan dengan kebutuhan */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sesuaikan dengan kebutuhan */
+  margin-bottom: 20px; /* Sesuaikan dengan kebutuhan */
+  overflow: hidden; /* Hindari gambar yang keluar dari kotak */
+}
+
+.card-content {
+  padding: 20px; /* Sesuaikan dengan kebutuhan */
+}
+
+.card-header img {
+  width: 100%; /* Sesuaikan dengan kebutuhan */
+  height: auto; /* Sesuaikan dengan kebutuhan */
+  border-radius: 8px 8px 0 0; /* Sesuaikan dengan kebutuhan */
+}
+
+.card-body h3 {
+  margin-top: 0; /* Hapus margin atas */
+}
+

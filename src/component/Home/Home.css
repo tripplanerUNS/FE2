@@ -1,0 +1,279 @@
+/* Home.css */
+
+.body {
+  font-family: Cambria, serif; /* Mengubah font menjadi Cambria */
+}
+
+.containerHome {
+  position: relative;
+  top: -50px; /* Sesuaikan dengan jarak yang diinginkan */
+  background-color: white; /* Warna latar belakang container */
+  padding: 20px; /* Padding agar konten tidak terlalu dekat dengan tepi container */
+  border-radius: 50px; /* Menggunakan border-radius untuk membuat container melengkung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk container */
+}
+
+
+
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Sesuaikan tinggi background dengan tinggi layar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.judul-konten {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.content {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.SubmitPaket {
+  background-color: #3784f8;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex; /* Mengatur tata letak menjadi flexbox */
+}
+
+.searchpaket {
+  background-color: #3784f8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.searchpaket:hover {
+  background-color: #205dad;
+}
+
+
+/* button:hover {
+  background-color: #205dad;
+} */
+
+/* Home.css */
+
+/* Style popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Pastikan popup selalu berada di atas konten */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  position: relative; /* Membuat tombol close berposisi absolut relatif terhadap popup-content */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Home.css */
+
+/* Home.css */
+
+/* Menengahkan judul konten */
+.judul-content {
+  text-align: center;
+  margin-left: 40px;
+}
+
+/* Container content */
+.container-content {
+  display: flex;
+  justify-content: space-between; /* Konten berada di samping tanpa jarak */
+}
+
+/* Konten */
+.content-1 {
+  flex: 1; /* Konten memenuhi ruang yang tersedia */
+  display: flex;
+  flex-direction: column; /* Menempatkan label di atas input */
+  margin-right: 5px;
+}
+
+/* Label */
+label {
+  margin-bottom: 5px; /* Jarak antara label dan input */
+  font-size: 13px;
+}
+
+/* Form group */
+.form-group {
+  position: relative;
+  display: flex; /* Menjadikan form-group menjadi flex container */
+  flex-direction: column; /* Menjadikan form-group menjadi flex column */
+}
+
+/* Ikon */
+.icon {
+  align-self: flex-start; /* Posisi ikon di bagian atas */
+  margin-bottom: 5px; /* Jarak antara ikon dan input */
+  cursor: pointer;
+  margin-top: 18px; /* Sesuaikan nilai margin-top sesuai kebutuhan */
+}
+
+/* Input */
+.form-control {
+  flex: 1; /* Input mengisi sisa ruang yang tersedia */
+  padding: 6px; /* Padding     untuk memberi jarak antar huruf dengan border*/
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Fungsi swap */
+.form-group:first-child .form-control {
+  border-radius: 5px 0 0 5px;
+}
+
+.form-group:last-child .form-control {
+  border-radius: 0 5px 5px 0;
+}
+
+.icon svg {
+  width: 32px; /* Lebar ikon */
+  height: 32px; /* Tinggi ikon */
+  color: #555; /* Warna ikon */
+}
+
+/* Animasi ikon saat dihover */
+.icon:hover svg {
+  transform: scale(1.2); /* Perbesar ikon saat dihover */
+}
+
+.form-group-date {
+    position: relative;
+    display: flex; /* Menjadikan form-group menjadi flex container */
+    flex-direction: column; /* Menjadikan form-group menjadi flex column */
+    margin-left: 50px;
+  }
+
+  .date-control {
+    flex: 1; /* Input mengisi sisa ruang yang tersedia */
+    padding: 5px; /* Padding     untuk memberi jarak antar huruf dengan border*/
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+
+
+  .content-2 {
+    margin-top: 100px; /* Jarak antara konten-1 dan konten-2 */
+    margin-right: auto; /* Menengahkan konten-2 */
+    margin-left: auto; /* Menengahkan konten-2 */
+  }
+  
+  .form-group-budget {
+    position: relative;
+    display: flex; /* Menjadikan form-group menjadi flex container */
+    flex-direction: column; /* Menjadikan form-group menjadi flex column */
+    margin-left: 50px;
+  }
+  
+  .budget-control {
+    flex: 1; /* Input mengisi sisa ruang yang tersedia */
+    padding: 6px; /* Padding     untuk memberi jarak antar huruf dengan border*/
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .budget{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .content-invite {
+    margin-left: 46%; /* Menggeser ke tengah */
+    margin-right: auto; /* Menggeser ke tengah */
+    margin-top: 3%;
+    width: fit-content; /* Menyesuaikan lebar dengan kontennya */
+    
+  }
+
+  /* bantuan */
+
+  .body-bantuan {
+    margin-top: 10%; /* Atur margin atas sesuai kebutuhan */
+  }
+  
+  .wrap-bantuan {
+    text-align: center; /* Pusatkan teks */
+  }
+  
+  .judul-bantuan {
+    font-size: 24px; /* Atur ukuran font judul */
+    color: #333; /* Atur warna teks */
+    margin-bottom: 30px; /* Atur margin bawah sesuai kebutuhan */
+    margin-top: 70px;
+  }
+  
+  .content-bantuan {
+    display: flex; /* Atur tata letak konten menjadi flex */
+    justify-content: center; /* Pusatkan konten secara horizontal */
+  }
+  
+  .content-bantuan-vidio {
+    position: relative;
+    width: 80%; 
+    height: 90%; 
+    margin-bottom: 30%; /* Perbandingan aspek 16:9 untuk video */
+    margin-left: 20%;
+    /* overflow: hidden; */
+  }
+  
+  .content-bantuan-vidio iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    /* width: 70%;
+    height: 50%; */
+    border-radius: 10px;
+  }
+
+  .button-invite {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }

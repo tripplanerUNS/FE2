@@ -1,0 +1,53 @@
+.footer {
+    background-color: #B0B0B0;
+    color: #000000;
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 0 5px;
+}
+
+.footer-col img {
+    max-width: 100%; /* Membuat gambar tidak melebihi lebar parent element */
+    height: auto; /* Menjaga proporsi aspek gambar */
+}
+
+.footer-col h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    line-height: 2;
+}
+
+.footer-bottom {
+    background-color: #c0bfbf;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
